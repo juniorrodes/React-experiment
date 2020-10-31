@@ -1,8 +1,22 @@
-.header{
+.collapsible{
+    width: 160px;
+}
+
+.Github{
     cursor: pointer;
     border: solid 1px #f2f2f2;
+    margin-left: 15px;
     padding: 15px;
     background-color: #0089CC;
+    color: #FFF;
+    font-family: verdana;
+}
+
+.Header{
+    cursor: pointer;
+    border: solid 1px #f2f2f2;
+    background-color: #0089CC;
+    padding: 15px;
     color: #FFF;
     font-family: verdana;
 }
@@ -12,8 +26,10 @@
     border-left: solid 1px #f2f2f2;
     border-right: solid 1px #f2f2f2;
     border-bottom: solid 1px #f2f2f2;
+    margin-left: 15px;
     border-radius: 0 0 5px 5px;
     padding: 15px;
+    background-color: #0088cc3f;
     font-family: verdana;
     font-size: 14px;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Collapsible.css'
+import './collapsible.css'
 
 export default class Collapsible extends Component{
     constructor(props){
@@ -21,9 +21,10 @@ export default class Collapsible extends Component{
     }
 
     render(){
+        //let style = 
         return(
-            <div>
-                <div onClick = {(e) => this.togglePanel(e)} className = 'header'> 
+            <div className = 'collapsible'>
+                <div onClick = {(e) => this.togglePanel(e)} className = {this.props.tittle}> 
                     {this.props.tittle} 
                 </div>
                 {this.state.isVisible ? (<div className = 'content'> {this.props.children} </div>) : null}
